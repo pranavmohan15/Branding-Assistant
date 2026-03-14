@@ -226,7 +226,7 @@ white background
 """
 
             result = openai.images.generate(
-                model="gpt-image-1",
+                model="gpt-4o-mini",
                 prompt=image_prompt,
                 size="1024x1024",
                 quality="high"
